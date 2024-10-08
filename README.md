@@ -1,4 +1,13 @@
 # Heroku Deploy
+<details><summary><b>Deploy To Koyeb</b></summary>
+<br>
+<b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
+<br>
+<br>
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/beasttamer01/helios-mirror-loml&branch=heroku&name=hemliosu)
+</details>
+
 
 **Important Notes**
 1. Generate all your private files from master branch (token.pickle, config.env, drive_folder, cookies.txt, accounts, .netrc) since the generators not available in heroku branch but you should add the private files in heroku branch not in master or use variables links in `config.env`.
